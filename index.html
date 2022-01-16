@@ -22,7 +22,8 @@
 				<input type="button" class="btn" value="C" onclick="clearresult()">
 				<input type="button" class="btn" value="+/-">
 				<input type="button" class="btn" value="%">
-				<input type="button" class="btn btn-style" value="/" onclick="innerNumber('/')">
+				<input type="button" class="btn" style="background-color: red;"  value="DEL" onclick="deletenumber()">
+				<!-- <input type="button" class="btn btn-style" value="/" onclick="innerNumber('/')"> -->
 
 			</div>
 			<div>
@@ -50,8 +51,10 @@
 			<div>
 				<input type="button" class="btn" value="0" onclick="innerNumber(0)">
 				<input type="button" class="btn" value="." onclick="innerNumber(.)">
-				<input type="button" class="btn" value="DEL" onclick="deletenumber()">
+			
+				<!-- <input type="button" class="btn" value="DEL" onclick="deletenumber()"> -->
 				<input type="button" class="btn" style="background-color: orange;" value="=" onclick="calculate('=')">
+				<input type="button" class="btn btn-style" value="/" onclick="innerNumber('/')">
 
 			</div>
 
